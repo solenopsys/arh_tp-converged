@@ -1,0 +1,12 @@
+["services",
+"services/platform",
+"services/converged",
+"frontends",
+"frontends/packages",
+"frontends/packages/fronts",
+"frontends/packages/libraries",
+"frontends/packages/uimatrix",
+"frontends/packages/platform",
+"frontends/packages/converged",
+"frontends/packages/platform",
+"frontends/packages/converged"]
