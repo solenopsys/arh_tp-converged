@@ -1,12 +1,14 @@
-["services",
-"services/platform",
-"services/converged",
-"frontends",
-"frontends/packages",
-"frontends/packages/fronts",
-"frontends/packages/libraries",
-"frontends/packages/uimatrix",
-"frontends/packages/platform",
-"frontends/packages/converged",
-"frontends/packages/platform",
-"frontends/packages/converged"]
+[
+  "back",
+  "back/platform",
+  "back/converged",
+  "front",
+  "front/packages",
+  "front/packages/fronts",
+  "front/packages/libraries",
+  "front/packages/uimatrix",
+  "front/packages/platform",
+  "front/packages/converged",
+  "front/packages/platform",
+  "front/packages/converged"
+]
