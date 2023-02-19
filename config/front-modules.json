@@ -1,6 +1,6 @@
 [
   {
-    "dir": "libs",
+    "dir": "libraries",
     "modules": [
       {
         "name": "@solenopsys/lib-clusters",
