@@ -2,13 +2,12 @@
   "back",
   "back/platform",
   "back/converged",
+  "back/libraries",
   "front",
   "front/packages",
   "front/packages/fronts",
   "front/packages/libraries",
   "front/packages/uimatrix",
-  "front/packages/platform",
-  "front/packages/converged",
   "front/packages/platform",
   "front/packages/converged"
 ]
