@@ -1,9 +1,8 @@
 {
   "format": {
-    "name": "xs-front",
+    "name": "xs-fronts",
     "version": "1.0.0"
   },
-  "PackagesType": "git",
   "modules": {
     "libraries": [
       {
