@@ -1,0 +1,139 @@
+{
+  "format": {
+    "name": "xs-front",
+    "version": "1.0.0"
+  },
+  "PackagesType": "git",
+  "modules": {
+    "libraries": [
+      {
+        "npm":"@solenopsys/lib-clusters",
+        "directory": "clusters",
+        "git": "https://github.com/solenopsys/sc-fl-helm",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-dgraph",
+        "directory": "dgraph",
+        "git": "https://github.com/solenopsys/sc-fl-dgraph",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-helm",
+        "directory": "helm",
+        "git": "https://github.com/solenopsys/sc-fl-helm",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-hyperstreams",
+        "directory": "hyperstreams",
+        "git": "https://github.com/solenopsys/sc-fl-hyperstreams",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-installer",
+        "directory": "installer",
+        "git": "https://github.com/solenopsys/sc-fl-installer",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-storage",
+        "directory": "storage",
+        "git": "https://github.com/solenopsys/sc-fl-storage",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/lib-globals",
+        "directory": "globals",
+        "git": "https://github.com/solenopsys/sc-fl-globals",
+        "use": "git",
+        "load": true
+      }
+    ],
+    "uimatrix": [
+      {
+        "npm":"@solenopsys/uimatrix-forms",
+        "directory": "forms",
+        "git": "https://github.com/solenopsys/uimatrix-forms",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-icons",
+        "directory": "icons",
+        "git": "https://github.com/solenopsys/uimatrix-icons",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-controls",
+        "directory": "controls",
+        "git": "https://github.com/solenopsys/uimatrix-controls",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-publications",
+        "directory": "publications",
+        "git": "https://github.com/solenopsys/uimatrix-publications",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-editor-content",
+        "directory": "editors/content",
+        "git": "https://github.com/solenopsys/uimatrix-editor-content",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-layouts",
+        "directory": "layouts",
+        "git": "https://github.com/solenopsys/uimatrix-layouts",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-lists",
+        "directory": "lists",
+        "git": "https://github.com/solenopsys/uimatrix-lists",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-modals",
+        "directory": "modals",
+        "git": "https://github.com/solenopsys/uimatrix-modals",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-templates",
+        "directory": "templates",
+        "git": "https://github.com/solenopsys/uimatrix-templates",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-themes",
+        "directory": "themes",
+        "git": "https://github.com/solenopsys/uimatrix-themes",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm":"@solenopsys/uimatrix-utils",
+        "directory": "utils",
+        "git": "https://github.com/solenopsys/uimatrix-utils",
+        "use": "git",
+        "load": true
+      }
+    ]
+  }
+}
