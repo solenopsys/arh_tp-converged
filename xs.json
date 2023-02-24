@@ -6,130 +6,295 @@
   "modules": {
     "libraries": [
       {
-        "npm":"@solenopsys/lib-clusters",
-        "directory": "clusters",
-        "git": "https://github.com/solenopsys/sc-fl-helm",
+        "npm": "@solenopsys/lib-clusters",
+        "directory": "fl-clusters",
+        "git": "https://github.com/solenopsys/fl-helm",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-dgraph",
-        "directory": "dgraph",
-        "git": "https://github.com/solenopsys/sc-fl-dgraph",
+        "npm": "@solenopsys/lib-dgraph",
+        "directory": "fl-dgraph",
+        "git": "https://github.com/solenopsys/fl-dgraph",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-helm",
-        "directory": "helm",
-        "git": "https://github.com/solenopsys/sc-fl-helm",
+        "npm": "@solenopsys/lib-helm",
+        "directory": "fl-helm",
+        "git": "https://github.com/solenopsys/fl-helm",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-hyperstreams",
-        "directory": "hyperstreams",
-        "git": "https://github.com/solenopsys/sc-fl-hyperstreams",
+        "npm": "@solenopsys/lib-hyperstreams",
+        "directory": "fl-hyperstreams",
+        "git": "https://github.com/solenopsys/fl-hyperstreams",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-installer",
-        "directory": "installer",
-        "git": "https://github.com/solenopsys/sc-fl-installer",
+        "npm": "@solenopsys/lib-installer",
+        "directory": "fl-installer",
+        "git": "https://github.com/solenopsys/fl-installer",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-storage",
-        "directory": "storage",
-        "git": "https://github.com/solenopsys/sc-fl-storage",
+        "npm": "@solenopsys/lib-storage",
+        "directory": "fl-storage",
+        "git": "https://github.com/solenopsys/fl-storage",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/lib-globals",
-        "directory": "globals",
-        "git": "https://github.com/solenopsys/sc-fl-globals",
+        "npm": "@solenopsys/lib-globals",
+        "directory": "fl-globals",
+        "git": "https://github.com/solenopsys/fl-globals",
         "use": "git",
         "load": true
       }
     ],
     "uimatrix": [
       {
-        "npm":"@solenopsys/uimatrix-forms",
-        "directory": "forms",
-        "git": "https://github.com/solenopsys/uimatrix-forms",
+        "npm": "@solenopsys/ui-forms",
+        "directory": "ui-forms",
+        "git": "https://github.com/solenopsys/ui-forms",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-icons",
-        "directory": "icons",
-        "git": "https://github.com/solenopsys/uimatrix-icons",
+        "npm": "@solenopsys/ui-icons",
+        "directory": "ui-icons",
+        "git": "https://github.com/solenopsys/ui-icons",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-controls",
-        "directory": "controls",
-        "git": "https://github.com/solenopsys/uimatrix-controls",
+        "npm": "@solenopsys/ui-controls",
+        "directory": "ui-controls",
+        "git": "https://github.com/solenopsys/ui-controls",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-publications",
-        "directory": "publications",
-        "git": "https://github.com/solenopsys/uimatrix-publications",
+        "npm": "@solenopsys/ui-publications",
+        "directory": "ui-publications",
+        "git": "https://github.com/solenopsys/ui-publications",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-editor-content",
-        "directory": "editors/content",
-        "git": "https://github.com/solenopsys/uimatrix-editor-content",
+        "npm": "@solenopsys/ui-editor-content",
+        "directory": "ui-editors/content",
+        "git": "https://github.com/solenopsys/ui-editor-content",
+        "use": "git",
+        "load": true
+      },   {
+        "npm": "@solenopsys/ui-editor-code",
+        "directory": "ui-editors/code",
+        "git": "https://github.com/solenopsys/ui-editor-code",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-layouts",
-        "directory": "layouts",
-        "git": "https://github.com/solenopsys/uimatrix-layouts",
+        "npm": "@solenopsys/ui-editor-electronic",
+        "directory": "ui-editors/electronic",
+        "git": "https://github.com/solenopsys/ui-editor-electronic",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-lists",
-        "directory": "lists",
-        "git": "https://github.com/solenopsys/uimatrix-lists",
+        "npm": "@solenopsys/ui-layouts",
+        "directory": "ui-layouts",
+        "git": "https://github.com/solenopsys/ui-layouts",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-modals",
-        "directory": "modals",
-        "git": "https://github.com/solenopsys/uimatrix-modals",
+        "npm": "@solenopsys/ui-lists",
+        "directory": "ui-lists",
+        "git": "https://github.com/solenopsys/ui-lists",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-templates",
-        "directory": "templates",
-        "git": "https://github.com/solenopsys/uimatrix-templates",
+        "npm": "@solenopsys/ui-modals",
+        "directory": "ui-modals",
+        "git": "https://github.com/solenopsys/ui-modals",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-themes",
-        "directory": "themes",
-        "git": "https://github.com/solenopsys/uimatrix-themes",
+        "npm": "@solenopsys/ui-templates",
+        "directory": "ui-templates",
+        "git": "https://github.com/solenopsys/ui-templates",
         "use": "git",
         "load": true
       },
       {
-        "npm":"@solenopsys/uimatrix-utils",
-        "directory": "utils",
-        "git": "https://github.com/solenopsys/uimatrix-utils",
+        "npm": "@solenopsys/ui-themes",
+        "directory": "ui-themes",
+        "git": "https://github.com/solenopsys/ui-themes",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/ui-utils",
+        "directory": "ui-utils",
+        "git": "https://github.com/solenopsys/ui-utils",
+        "use": "git",
+        "load": true
+      }
+    ],
+    "fronts": [
+      {
+        "npm": "@solenopsys/front-website",
+        "directory": "front-website",
+        "git": "https://github.com/solenopsys/front-website",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/front-converged",
+        "directory": "front-converged",
+        "git": "https://github.com/solenopsys/front-converged",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/front-uimatrix",
+        "directory": "front-uimatrix",
+        "git": "https://github.com/solenopsys/front-uimatrix",
+        "use": "git",
+        "load": true
+      }
+    ],
+    "converged": [
+      {
+        "npm": "@solenopsys/cmf-ci-invicta",
+        "directory": "invicta/mf-ci",
+        "git": "https://github.com/solenopsys/cmf-ci-invicta",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/cmf-git-invicta",
+        "directory": "invicta/mf-git",
+        "git": "https://github.com/solenopsys/cmf-git-invicta",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/cmf-logs-invicta",
+        "directory": "invicta/mf-logs",
+        "git": "https://github.com/solenopsys/cmf-logs-invicta",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/cmf-registry-invicta",
+        "directory": "invicta/mf-registry",
+        "git": "https://github.com/solenopsys/cmf-registry-invicta",
+        "use": "git",
+        "load": true
+      },
+
+      {
+        "npm": "@solenopsys/cmf-video-invicta",
+        "directory": "invicta/mf-video",
+        "git": "https://github.com/solenopsys/cmf-video-invicta",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/cmf-dgraph-invicta",
+        "directory": "invicta/mf-dgraph",
+        "git": "https://github.com/solenopsys/cmf-dgraph-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-content-invicta",
+        "directory": "invicta/mf-content",
+        "git": "https://github.com/solenopsys/cmf-content-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-backups-invicta",
+        "directory": "invicta/mf-backups",
+        "git": "https://github.com/solenopsys/cmf-backups-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-postgres-invicta",
+        "directory": "invicta/mf-postgres",
+        "git": "https://github.com/solenopsys/cmf-postgres-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-registry-invicta",
+        "directory": "invicta/mf-registry",
+        "git": "https://github.com/solenopsys/cmf-registry-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-storages-invicta",
+        "directory": "invicta/mf-storages",
+        "git": "https://github.com/solenopsys/cmf-storages-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-equipment-invicta",
+        "directory": "invicta/mf-equipment",
+        "git": "https://github.com/solenopsys/cmf-equipment-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-shockwaves-invicta",
+        "directory": "invicta/mf-shockwaves",
+        "git": "https://github.com/solenopsys/cmf-shockwaves-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-kubernetes-invicta",
+        "directory": "invicta/mf-kubernetes",
+        "git": "https://github.com/solenopsys/cmf-kubernetes-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-clickhouse-invicta",
+        "directory": "invicta/mf-clickhouse",
+        "git": "https://github.com/solenopsys/cmf-clickhouse-invicta",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-rom-alexstorm",
+        "directory": "alexstorm/mf-rom",
+        "git": "https://github.com/solenopsys/cmf-rom-alexstorm",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-quality-alexstorm",
+        "directory": "alexstorm/mf-quality",
+        "git": "https://github.com/solenopsys/cmf-quality-alexstorm",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-inventory-alexstorm",
+        "directory": "alexstorm/mf-inventory",
+        "git": "https://github.com/solenopsys/cmf-inventory-alexstorm",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-electronic-alexstorm",
+        "directory": "alexstorm/mf-electronic",
+        "git": "https://github.com/solenopsys/cmf-electronic-alexstorm",
+        "use": "git",
+        "load": true
+      },  {
+        "npm": "@solenopsys/cmf-time-alexstorm",
+        "directory": "alexstorm/mf-time",
+        "git": "https://github.com/solenopsys/cmf-time-alexstorm",
         "use": "git",
         "load": true
       }
