@@ -15,49 +15,49 @@
     ],
     "libraries": [
       {
-        "npm": "@solenopsys/fr-clusters",
+        "npm": "@solenopsys/fl-clusters",
         "directory": "fl-clusters",
         "git": "https://github.com/solenopsys/fl-clusters",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-dgraph",
+        "npm": "@solenopsys/fl-dgraph",
         "directory": "fl-dgraph",
         "git": "https://github.com/solenopsys/fl-dgraph",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-helm",
+        "npm": "@solenopsys/fl-helm",
         "directory": "fl-helm",
         "git": "https://github.com/solenopsys/fl-helm",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-hyperstreams",
+        "npm": "@solenopsys/fl-hyperstreams",
         "directory": "fl-hyperstreams",
         "git": "https://github.com/solenopsys/fl-hyperstreams",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-installer",
+        "npm": "@solenopsys/fl-installer",
         "directory": "fl-installer",
         "git": "https://github.com/solenopsys/fl-installer",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-storage",
+        "npm": "@solenopsys/fl-storage",
         "directory": "fl-storage",
         "git": "https://github.com/solenopsys/fl-storage",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/fr-globals",
+        "npm": "@solenopsys/fl-globals",
         "directory": "fl-globals",
         "git": "https://github.com/solenopsys/fl-globals",
         "use": "git",
