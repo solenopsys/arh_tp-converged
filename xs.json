@@ -6,7 +6,7 @@
   "groups": {
     "templates": [
       {
-        "npm": "@solenopsys/templates-fronts",
+        "npm": "@solenopsys/tp-fronts",
         "directory": "tp-fronts",
         "git": "https://github.com/solenopsys/xs-fronts-template",
         "use": "git",
@@ -15,49 +15,49 @@
     ],
     "libraries": [
       {
-        "npm": "@solenopsys/lib-clusters",
+        "npm": "@solenopsys/fr-clusters",
         "directory": "fl-clusters",
-        "git": "https://github.com/solenopsys/fl-helm",
+        "git": "https://github.com/solenopsys/fl-clusters",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-dgraph",
+        "npm": "@solenopsys/fr-dgraph",
         "directory": "fl-dgraph",
         "git": "https://github.com/solenopsys/fl-dgraph",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-helm",
+        "npm": "@solenopsys/fr-helm",
         "directory": "fl-helm",
         "git": "https://github.com/solenopsys/fl-helm",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-hyperstreams",
+        "npm": "@solenopsys/fr-hyperstreams",
         "directory": "fl-hyperstreams",
         "git": "https://github.com/solenopsys/fl-hyperstreams",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-installer",
+        "npm": "@solenopsys/fr-installer",
         "directory": "fl-installer",
         "git": "https://github.com/solenopsys/fl-installer",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-storage",
+        "npm": "@solenopsys/fr-storage",
         "directory": "fl-storage",
         "git": "https://github.com/solenopsys/fl-storage",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/lib-globals",
+        "npm": "@solenopsys/fr-globals",
         "directory": "fl-globals",
         "git": "https://github.com/solenopsys/fl-globals",
         "use": "git",
@@ -93,27 +93,9 @@
         "use": "git",
         "load": true
       },
-      {
-        "npm": "@solenopsys/ui-editor-content",
-        "directory": "ui-editors/content",
-        "git": "https://github.com/solenopsys/ui-editor-content",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/ui-editor-code",
-        "directory": "ui-editors/code",
-        "git": "https://github.com/solenopsys/ui-editor-code",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/ui-editor-electronic",
-        "directory": "ui-editors/electronic",
-        "git": "https://github.com/solenopsys/ui-editor-electronic",
-        "use": "git",
-        "load": true
-      },
+
+
+
       {
         "npm": "@solenopsys/ui-layouts",
         "directory": "ui-layouts",
@@ -159,21 +141,21 @@
     ],
     "fronts": [
       {
-        "npm": "@solenopsys/front-website",
+        "npm": "@solenopsys/fr-website",
         "directory": "fr-website",
         "git": "https://github.com/solenopsys/fr-website",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/front-converged",
+        "npm": "@solenopsys/fr-converged",
         "directory": "fr-converged",
         "git": "https://github.com/solenopsys/fr-converged",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/front-uimatrix",
+        "npm": "@solenopsys/fr-uimatrix",
         "directory": "fr-uimatrix",
         "git": "https://github.com/solenopsys/fr-uimatrix",
         "use": "git",
@@ -192,6 +174,13 @@
         "npm": "@solenopsys/mf-git-invicta",
         "directory": "invicta/mf-git",
         "git": "https://github.com/solenopsys/mf-git-invicta",
+        "use": "git",
+        "load": true
+      },
+      {
+        "npm": "@solenopsys/ui-code-invicta",
+        "directory": "invicta/mf-code",
+        "git": "https://github.com/solenopsys/mf-code-invicta",
         "use": "git",
         "load": true
       },
