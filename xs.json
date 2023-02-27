@@ -118,6 +118,13 @@
         "load": true
       },
       {
+        "npm": "@solenopsys/ui-navigate",
+        "directory": "ui-navigate",
+        "git": "https://github.com/solenopsys/ui-navigate",
+        "use": "git",
+        "load": true
+      },
+      {
         "npm": "@solenopsys/ui-templates",
         "directory": "ui-templates",
         "git": "https://github.com/solenopsys/ui-templates",
@@ -164,149 +171,149 @@
     ],
     "modules": [
       {
-        "npm": "@solenopsys/mf-ci-invicta",
-        "directory": "invicta/mf-ci",
-        "git": "https://github.com/solenopsys/mf-ci-invicta",
+        "npm": "@solenopsys/mf-ci",
+        "directory": "mf-ci",
+        "git": "https://github.com/solenopsys/mf-ci",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-git-invicta",
-        "directory": "invicta/mf-git",
-        "git": "https://github.com/solenopsys/mf-git-invicta",
+        "npm": "@solenopsys/mf-git",
+        "directory": "mf-git",
+        "git": "https://github.com/solenopsys/mf-git",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/ui-code-invicta",
-        "directory": "invicta/mf-code",
-        "git": "https://github.com/solenopsys/mf-code-invicta",
+        "npm": "@solenopsys/ui-code",
+        "directory": "mf-code",
+        "git": "https://github.com/solenopsys/mf-code",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-logs-invicta",
-        "directory": "invicta/mf-logs",
-        "git": "https://github.com/solenopsys/mf-logs-invicta",
+        "npm": "@solenopsys/mf-logs",
+        "directory": "mf-logs",
+        "git": "https://github.com/solenopsys/mf-logs",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-registry-invicta",
-        "directory": "invicta/mf-registry",
-        "git": "https://github.com/solenopsys/mf-registry-invicta",
+        "npm": "@solenopsys/mf-registry",
+        "directory": "mf-registry",
+        "git": "https://github.com/solenopsys/mf-registry",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-video-invicta",
-        "directory": "invicta/mf-video",
-        "git": "https://github.com/solenopsys/mf-video-invicta",
+        "npm": "@solenopsys/mf-video",
+        "directory": "mf-video",
+        "git": "https://github.com/solenopsys/mf-video",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-dgraph-invicta",
-        "directory": "invicta/mf-dgraph",
-        "git": "https://github.com/solenopsys/mf-dgraph-invicta",
+        "npm": "@solenopsys/mf-dgraph",
+        "directory": "mf-dgraph",
+        "git": "https://github.com/solenopsys/mf-dgraph",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-content-invicta",
-        "directory": "invicta/mf-content",
-        "git": "https://github.com/solenopsys/mf-content-invicta",
+        "npm": "@solenopsys/mf-content",
+        "directory": "mf-content",
+        "git": "https://github.com/solenopsys/mf-content",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-backups-invicta",
-        "directory": "invicta/mf-backups",
-        "git": "https://github.com/solenopsys/mf-backups-invicta",
+        "npm": "@solenopsys/mf-backups",
+        "directory": "mf-backups",
+        "git": "https://github.com/solenopsys/mf-backups",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-postgres-invicta",
-        "directory": "invicta/mf-postgres",
-        "git": "https://github.com/solenopsys/mf-postgres-invicta",
+        "npm": "@solenopsys/mf-postgres",
+        "directory": "mf-postgres",
+        "git": "https://github.com/solenopsys/mf-postgres",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-registry-invicta",
-        "directory": "invicta/mf-registry",
-        "git": "https://github.com/solenopsys/mf-registry-invicta",
+        "npm": "@solenopsys/mf-registry",
+        "directory": "mf-registry",
+        "git": "https://github.com/solenopsys/mf-registry",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-storages-invicta",
-        "directory": "invicta/mf-storages",
-        "git": "https://github.com/solenopsys/mf-storages-invicta",
+        "npm": "@solenopsys/mf-storages",
+        "directory": "mf-storages",
+        "git": "https://github.com/solenopsys/mf-storages",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-equipment-invicta",
-        "directory": "invicta/mf-equipment",
-        "git": "https://github.com/solenopsys/mf-equipment-invicta",
+        "npm": "@solenopsys/mf-equipment",
+        "directory": "mf-equipment",
+        "git": "https://github.com/solenopsys/mf-equipment",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-shockwaves-invicta",
-        "directory": "invicta/mf-shockwaves",
-        "git": "https://github.com/solenopsys/mf-shockwaves-invicta",
+        "npm": "@solenopsys/mf-shockwaves",
+        "directory": "mf-shockwaves",
+        "git": "https://github.com/solenopsys/mf-shockwaves",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-kubernetes-invicta",
-        "directory": "invicta/mf-kubernetes",
-        "git": "https://github.com/solenopsys/mf-kubernetes-invicta",
+        "npm": "@solenopsys/mf-kubernetes",
+        "directory": "mf-kubernetes",
+        "git": "https://github.com/solenopsys/mf-kubernetes",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-clickhouse-invicta",
-        "directory": "invicta/mf-clickhouse",
-        "git": "https://github.com/solenopsys/mf-clickhouse-invicta",
+        "npm": "@solenopsys/mf-clickhouse",
+        "directory": "mf-clickhouse",
+        "git": "https://github.com/solenopsys/mf-clickhouse",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-rom-richteri",
-        "directory": "richteri/mf-rom",
-        "git": "https://github.com/solenopsys/mf-rom-richteri",
+        "npm": "@solenopsys/mf-rom",
+        "directory": "mf-rom",
+        "git": "https://github.com/solenopsys/mf-rom",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-quality-richteri",
-        "directory": "richteri/mf-quality",
-        "git": "https://github.com/solenopsys/mf-quality-richteri",
+        "npm": "@solenopsys/mf-quality",
+        "directory": "mf-quality",
+        "git": "https://github.com/solenopsys/mf-quality",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-inventory-richteri",
-        "directory": "richteri/mf-inventory",
-        "git": "https://github.com/solenopsys/mf-inventory-richteri",
+        "npm": "@solenopsys/mf-inventory",
+        "directory": "mf-inventory",
+        "git": "https://github.com/solenopsys/mf-inventory",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-electronic-richteri",
-        "directory": "richteri/mf-electronic",
-        "git": "https://github.com/solenopsys/mf-electronic-richteri",
+        "npm": "@solenopsys/mf-electronic",
+        "directory": "mf-electronic",
+        "git": "https://github.com/solenopsys/mf-electronic",
         "use": "git",
         "load": true
       },
       {
-        "npm": "@solenopsys/mf-time-richteri",
-        "directory": "richteri/mf-time",
-        "git": "https://github.com/solenopsys/mf-time-richteri",
+        "npm": "@solenopsys/mf-time",
+        "directory": "mf-time",
+        "git": "https://github.com/solenopsys/mf-time",
         "use": "git",
         "load": true
       }
