@@ -73,6 +73,13 @@
         "load": true
       },
       {
+        "npm": "@solenopsys/ui-charts",
+        "directory": "ui-charts",
+        "git": "https://github.com/solenopsys/ui-charts",
+        "use": "git",
+        "load": true
+      },
+      {
         "npm": "@solenopsys/ui-icons",
         "directory": "ui-icons",
         "git": "https://github.com/solenopsys/ui-icons",
