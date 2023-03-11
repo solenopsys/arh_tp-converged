@@ -4,15 +4,6 @@
     "version": "1.0.0"
   },
   "groups": {
-    "templates": [
-      {
-        "npm": "@solenopsys/tp-fronts",
-        "directory": "tp-fronts",
-        "git": "https://github.com/solenopsys/xs-fronts-template",
-        "use": "git",
-        "load": true
-      }
-    ],
     "libraries": [
       {
         "npm": "@solenopsys/fl-clusters",
