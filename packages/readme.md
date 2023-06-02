@@ -1,3 +1,2 @@
-# Solenopsys frontend libraries
-
+# Libraries
 all libraries for developing Frontends 
