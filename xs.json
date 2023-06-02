@@ -1,319 +1,395 @@
 {
   "format": {
     "name": "xs-fronts",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "groups": {
-    "libraries": [
+    "templates": [
       {
-        "npm": "@solenopsys/fl-clusters",
-        "directory": "fl-clusters",
-        "git": "https://github.com/solenopsys/fl-clusters",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-dgraph",
-        "directory": "fl-dgraph",
-        "git": "https://github.com/solenopsys/fl-dgraph",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-helm",
-        "directory": "fl-helm",
-        "git": "https://github.com/solenopsys/fl-helm",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-hyperstreams",
-        "directory": "fl-hyperstreams",
-        "git": "https://github.com/solenopsys/fl-hyperstreams",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-installer",
-        "directory": "fl-installer",
-        "git": "https://github.com/solenopsys/fl-installer",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-storage",
-        "directory": "fl-storage",
-        "git": "https://github.com/solenopsys/fl-storage",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/fl-globals",
-        "directory": "fl-globals",
-        "git": "https://github.com/solenopsys/fl-globals",
-        "use": "git",
-        "load": true
+        "package": "@solenopsys/tp-fronts",
+        "directory": "solenopsys/tp-fronts",
+        "repository": "https://github.com/solenopsys/xs-fronts-template",
+        "scopes": []
       }
     ],
-    "uimatrix": [
+    "packages": [
       {
-        "npm": "@solenopsys/ui-forms",
-        "directory": "ui-forms",
-        "git": "https://github.com/solenopsys/ui-forms",
-        "use": "git",
-        "load": true
+        "name": "fl-clusters",
+        "package": "@solenopsys/fl-clusters",
+        "directory": "solenopsys/converged/fl-clusters",
+        "repository": "https://github.com/solenopsys/fl-clusters",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-charts",
-        "directory": "ui-charts",
-        "git": "https://github.com/solenopsys/ui-charts",
-        "use": "git",
-        "load": true
+        "name": "fl-content",
+        "package": "@solenopsys/fl-content",
+        "directory": "solenopsys/interfaces/fl-content",
+        "repository": "https://github.com/solenopsys/fl-content.git",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-icons",
-        "directory": "ui-icons",
-        "git": "https://github.com/solenopsys/ui-icons",
-        "use": "git",
-        "load": true
+        "name": "fl-crypto",
+        "package": "@solenopsys/fl-crypto",
+        "directory": "solenopsys/tools/fl-crypto",
+        "repository": "https://github.com/solenopsys/fl-crypto",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-controls",
-        "directory": "ui-controls",
-        "git": "https://github.com/solenopsys/ui-controls",
-        "use": "git",
-        "load": true
+        "name": "fl-authorization",
+        "package": "@solenopsys/fl-authorization",
+        "directory": "solenopsys/core/fl-authorization",
+        "repository": "https://github.com/solenopsys/fl-authorization.git",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-publications",
-        "directory": "ui-publications",
-        "git": "https://github.com/solenopsys/ui-publications",
-        "use": "git",
-        "load": true
+        "name": "fl-dgraph",
+        "package": "@solenopsys/fl-dgraph",
+        "directory": "solenopsys/data/fl-dgraph",
+        "repository": "https://github.com/solenopsys/fl-dgraph",
+        "scopes": []
+      },
+      {
+        "name": "fl-helm",
+        "package": "@solenopsys/fl-helm",
+        "directory": "solenopsys/converged/fl-helm",
+        "repository": "https://github.com/solenopsys/fl-helm",
+        "scopes": []
+      },
+      {
+        "name": "fl-hyperstreams",
+        "package": "@solenopsys/fl-hyperstreams",
+        "directory": "solenopsys/core/fl-hyperstreams",
+        "repository": "https://github.com/solenopsys/fl-hyperstreams",
+        "scopes": []
+      },
+      {
+        "name": "fl-installer",
+        "package": "@solenopsys/fl-installer",
+        "directory": "solenopsys/converged/fl-installer",
+        "repository": "https://github.com/solenopsys/fl-installer",
+        "scopes": []
+      },
+      {
+        "name": "fl-storage",
+        "package": "@solenopsys/fl-storage",
+        "directory": "solenopsys/core/fl-storage",
+        "repository": "https://github.com/solenopsys/fl-storage",
+        "scopes": []
+      },
+      {
+        "name": "fl-globals",
+        "package": "@solenopsys/fl-globals",
+        "directory": "solenopsys/interfaces/fl-globals",
+        "repository": "https://github.com/solenopsys/fl-globals",
+        "scopes": []
+      },
+      {
+        "name": "ui-forms",
+        "package": "@solenopsys/ui-forms",
+        "directory": "solenopsys/uimatrix/ui-forms",
+        "repository": "https://github.com/solenopsys/ui-forms",
+        "scopes": []
+      },
+      {
+        "name": "ui-3d",
+        "package": "@solenopsys/ui-3d",
+        "directory": "solenopsys/uimatrix/ui-3d",
+        "repository": "https://github.com/solenopsys/ui-3d",
+        "scopes": []
+      },
+      {
+        "name": "ui-qr",
+        "package": "@solenopsys/ui-qr",
+        "directory": "solenopsys/uimatrix/ui-qr",
+        "repository": "https://github.com/solenopsys/ui-qr",
+        "scopes": []
+      },
+      {
+        "name": "ui-charts",
+        "package": "@solenopsys/ui-charts",
+        "directory": "solenopsys/uimatrix/ui-charts",
+        "repository": "https://github.com/solenopsys/ui-charts",
+        "scopes": []
+      },
+      {
+        "name": "ui-icons",
+        "package": "@solenopsys/ui-icons",
+        "directory": "solenopsys/uimatrix/ui-icons",
+        "repository": "https://github.com/solenopsys/ui-icons",
+        "scopes": []
+      },
+      {
+        "name": "ui-controls",
+        "package": "@solenopsys/ui-controls",
+        "directory": "solenopsys/uimatrix/ui-controls",
+        "repository": "https://github.com/solenopsys/ui-controls",
+        "scopes": []
+      },
+      {
+        "name": "ui-publications",
+        "package": "@solenopsys/ui-publications",
+        "directory": "solenopsys/uimatrix/ui-publications",
+        "repository": "https://github.com/solenopsys/ui-publications",
+        "scopes": []
+      },
+      {
+        "name": "ui-layouts",
+        "package": "@solenopsys/ui-layouts",
+        "directory": "solenopsys/uimatrix/ui-layouts",
+        "repository": "https://github.com/solenopsys/ui-layouts",
+        "scopes": []
+      },
+      {
+        "name": "ui-lists",
+        "package": "@solenopsys/ui-lists",
+        "directory": "solenopsys/uimatrix/ui-lists",
+        "repository": "https://github.com/solenopsys/ui-lists",
+        "scopes": []
+      },
+      {
+        "name": "ui-modals",
+        "package": "@solenopsys/ui-modals",
+        "directory": "solenopsys/uimatrix/ui-modals",
+        "repository": "https://github.com/solenopsys/ui-modals",
+        "scopes": []
+      },
+      {
+        "name": "ui-navigate",
+        "package": "@solenopsys/ui-navigate",
+        "directory": "solenopsys/uimatrix/ui-navigate",
+        "repository": "https://github.com/solenopsys/ui-navigate",
+        "scopes": []
+      },
+      {
+        "name": "ui-templates",
+        "package": "@solenopsys/ui-templates",
+        "directory": "solenopsys/uimatrix/ui-templates",
+        "repository": "https://github.com/solenopsys/ui-templates",
+        "scopes": []
+      },
+      {
+        "name": "ui-themes",
+        "package": "@solenopsys/ui-themes",
+        "directory": "solenopsys/uimatrix/ui-themes",
+        "repository": "https://github.com/solenopsys/ui-themes",
+        "scopes": []
+      },
+      {
+        "name": "ui-utils",
+        "package": "@solenopsys/ui-utils",
+        "directory": "solenopsys/uimatrix/ui-utils",
+        "repository": "https://github.com/solenopsys/ui-utils",
+        "scopes": []
+      },
+      {
+        "name": "mf-ci",
+        "package": "@solenopsys/mf-ci",
+        "directory": "solenopsys/modules/mf-ci",
+        "repository": "https://github.com/solenopsys/mf-ci",
+        "scopes": []
+      },
+      {
+        "name": "mf-git",
+        "package": "@solenopsys/mf-git",
+        "directory": "solenopsys/modules/mf-git",
+        "repository": "https://github.com/solenopsys/mf-git",
+        "scopes": []
+      },
+      {
+        "name": "ui-code",
+        "package": "@solenopsys/ui-code",
+        "directory": "solenopsys/modules/mf-code",
+        "repository": "https://github.com/solenopsys/mf-code",
+        "scopes": []
+      },
+      {
+        "name": "mf-logs",
+        "package": "@solenopsys/mf-logs",
+        "directory": "solenopsys/modules/mf-logs",
+        "repository": "https://github.com/solenopsys/mf-logs",
+        "scopes": []
+      },
+      {
+        "name": "mf-registry",
+        "package": "@solenopsys/mf-registry",
+        "directory": "solenopsys/modules/mf-registry",
+        "repository": "https://github.com/solenopsys/mf-registry",
+        "scopes": []
+      },
+      {
+        "name": "mf-video",
+        "package": "@solenopsys/mf-video",
+        "directory": "solenopsys/modules/mf-video",
+        "repository": "https://github.com/solenopsys/mf-video",
+        "scopes": []
+      },
+      {
+        "name": "mf-dgraph",
+        "package": "@solenopsys/mf-dgraph",
+        "directory": "solenopsys/modules/mf-dgraph",
+        "repository": "https://github.com/solenopsys/mf-dgraph",
+        "scopes": []
       },
 
 
-
       {
-        "npm": "@solenopsys/ui-layouts",
-        "directory": "ui-layouts",
-        "git": "https://github.com/solenopsys/ui-layouts",
-        "use": "git",
-        "load": true
+        "name": "mf-postgres",
+        "package": "@solenopsys/mf-postgres",
+        "directory": "solenopsys/modules/mf-postgres",
+        "repository": "https://github.com/solenopsys/mf-postgres",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-lists",
-        "directory": "ui-lists",
-        "git": "https://github.com/solenopsys/ui-lists",
-        "use": "git",
-        "load": true
+        "name": "mf-registry",
+        "package": "@solenopsys/mf-registry",
+        "directory": "solenopsys/modules/mf-registry",
+        "repository": "https://github.com/solenopsys/mf-registry",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-modals",
-        "directory": "ui-modals",
-        "git": "https://github.com/solenopsys/ui-modals",
-        "use": "git",
-        "load": true
+        "name": "mf-storages",
+        "package": "@solenopsys/mf-storages",
+        "directory": "solenopsys/modules/mf-storages",
+        "repository": "https://github.com/solenopsys/mf-storages",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-navigate",
-        "directory": "ui-navigate",
-        "git": "https://github.com/solenopsys/ui-navigate",
-        "use": "git",
-        "load": true
+        "name": "mf-equipment",
+        "package": "@solenopsys/mf-equipment",
+        "directory": "solenopsys/modules/mf-equipment",
+        "repository": "https://github.com/solenopsys/mf-equipment",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-templates",
-        "directory": "ui-templates",
-        "git": "https://github.com/solenopsys/ui-templates",
-        "use": "git",
-        "load": true
+        "name": "mf-shockwaves",
+        "package": "@solenopsys/mf-shockwaves",
+        "directory": "solenopsys/modules/mf-shockwaves",
+        "repository": "https://github.com/solenopsys/mf-shockwaves",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-themes",
-        "directory": "ui-themes",
-        "git": "https://github.com/solenopsys/ui-themes",
-        "use": "git",
-        "load": true
+        "name": "mf-kubernetes",
+        "package": "@solenopsys/mf-kubernetes",
+        "directory": "solenopsys/modules/mf-kubernetes",
+        "repository": "https://github.com/solenopsys/mf-kubernetes",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/ui-utils",
-        "directory": "ui-utils",
-        "git": "https://github.com/solenopsys/ui-utils",
-        "use": "git",
-        "load": true
+        "name": "mf-clickhouse",
+        "package": "@solenopsys/mf-clickhouse",
+        "directory": "solenopsys/modules/mf-clickhouse",
+        "repository": "https://github.com/solenopsys/mf-clickhouse",
+        "scopes": []
+      },
+      {
+        "name": "mf-rom",
+        "package": "@solenopsys/mf-rom",
+        "directory": "solenopsys/modules/mf-rom",
+        "repository": "https://github.com/solenopsys/mf-rom",
+        "scopes": []
+      },
+      {
+        "name": "mf-quality",
+        "package": "@solenopsys/mf-quality",
+        "directory": "solenopsys/modules/mf-quality",
+        "repository": "https://github.com/solenopsys/mf-quality",
+        "scopes": []
+      },
+      {
+        "name": "mf-inventory",
+        "package": "@solenopsys/mf-inventory",
+        "directory": "solenopsys/modules/mf-inventory",
+        "repository": "https://github.com/solenopsys/mf-inventory",
+        "scopes": []
+      },
+      {
+        "name": "mf-electronic",
+        "package": "@solenopsys/mf-electronic",
+        "directory": "solenopsys/modules/mf-electronic",
+        "repository": "https://github.com/solenopsys/mf-electronic",
+        "scopes": []
+      },
+      {
+        "name": "mf-time",
+        "package": "@solenopsys/mf-time",
+        "directory": "solenopsys/modules/mf-time",
+        "repository": "https://github.com/solenopsys/mf-time",
+        "scopes": []
+      },
+      {
+        "name": "fl-auth",
+        "package": "@solenopsys/fl-auth",
+        "directory": "solenopsys/fronts/fl-auth",
+        "repository": "https://github.com/solenopsys/fl-auth",
+        "scopes": []
+      },
+      {
+        "name": "fl-converged",
+        "package": "@solenopsys/fl-converged",
+        "directory": "solenopsys/fronts/fl-converged",
+        "repository": "https://github.com/solenopsys/fl-converged",
+        "scopes": []
+      },
+      {
+        "name": "fl-datasheets",
+        "package": "@solenopsys/fl-datasheets",
+        "directory": "solenopsys/fronts/fl-datasheets",
+        "repository": "https://github.com/solenopsys/fl-datasheets",
+        "scopes": []
+      },
+      {
+        "name": "fl-website",
+        "package": "@solenopsys/fl-website",
+        "directory": "solenopsys/fronts/fl-website",
+        "repository": "https://github.com/solenopsys/fl-website",
+        "scopes": []
+      },
+      {
+        "name": "fl-uimatrix",
+        "package": "@solenopsys/fl-uimatrix",
+        "directory": "solenopsys/fronts/fl-uimatrix",
+        "repository": "https://github.com/solenopsys/fl-uimatrix",
+        "scopes": []
+      },
+      {
+        "name": "mf-content",
+        "package": "@solenopsys/mf-content",
+        "directory": "solenopsys/modules/mf-content",
+        "repository": "https://github.com/solenopsys/mf-content",
+        "scopes": []
+      },
+      {
+        "name": "mf-backups",
+        "package": "@solenopsys/mf-backups",
+        "directory": "solenopsys/modules/mf-backups",
+        "repository": "https://github.com/solenopsys/mf-backups",
+        "scopes": []
       }
     ],
     "fronts": [
       {
-        "npm": "@solenopsys/fr-website",
-        "directory": "fr-website",
-        "git": "https://github.com/solenopsys/fr-website",
-        "use": "git",
-        "load": true
+        "package": "@solenopsys/fr-website",
+        "directory": "solenopsys/fr-website",
+        "repository": "https://github.com/solenopsys/fr-website",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/fr-converged",
-        "directory": "fr-converged",
-        "git": "https://github.com/solenopsys/fr-converged",
-        "use": "git",
-        "load": true
+        "package": "@solenopsys/fr-auth",
+        "directory": "solenopsys/fr-auth",
+        "repository": "https://github.com/solenopsys/fr-auth",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/fr-uimatrix",
-        "directory": "fr-uimatrix",
-        "git": "https://github.com/solenopsys/fr-uimatrix",
-        "use": "git",
-        "load": true
-      }
-    ],
-    "modules": [
-      {
-        "npm": "@solenopsys/mf-ci",
-        "directory": "mf-ci",
-        "git": "https://github.com/solenopsys/mf-ci",
-        "use": "git",
-        "load": true
+        "package": "@solenopsys/fr-converged",
+        "directory": "solenopsys/fr-converged",
+        "repository": "https://github.com/solenopsys/fr-converged",
+        "scopes": []
       },
       {
-        "npm": "@solenopsys/mf-git",
-        "directory": "mf-git",
-        "git": "https://github.com/solenopsys/mf-git",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/ui-code",
-        "directory": "mf-code",
-        "git": "https://github.com/solenopsys/mf-code",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-logs",
-        "directory": "mf-logs",
-        "git": "https://github.com/solenopsys/mf-logs",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-registry",
-        "directory": "mf-registry",
-        "git": "https://github.com/solenopsys/mf-registry",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-video",
-        "directory": "mf-video",
-        "git": "https://github.com/solenopsys/mf-video",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-dgraph",
-        "directory": "mf-dgraph",
-        "git": "https://github.com/solenopsys/mf-dgraph",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-content",
-        "directory": "mf-content",
-        "git": "https://github.com/solenopsys/mf-content",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-backups",
-        "directory": "mf-backups",
-        "git": "https://github.com/solenopsys/mf-backups",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-postgres",
-        "directory": "mf-postgres",
-        "git": "https://github.com/solenopsys/mf-postgres",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-registry",
-        "directory": "mf-registry",
-        "git": "https://github.com/solenopsys/mf-registry",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-storages",
-        "directory": "mf-storages",
-        "git": "https://github.com/solenopsys/mf-storages",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-equipment",
-        "directory": "mf-equipment",
-        "git": "https://github.com/solenopsys/mf-equipment",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-shockwaves",
-        "directory": "mf-shockwaves",
-        "git": "https://github.com/solenopsys/mf-shockwaves",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-kubernetes",
-        "directory": "mf-kubernetes",
-        "git": "https://github.com/solenopsys/mf-kubernetes",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-clickhouse",
-        "directory": "mf-clickhouse",
-        "git": "https://github.com/solenopsys/mf-clickhouse",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-rom",
-        "directory": "mf-rom",
-        "git": "https://github.com/solenopsys/mf-rom",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-quality",
-        "directory": "mf-quality",
-        "git": "https://github.com/solenopsys/mf-quality",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-inventory",
-        "directory": "mf-inventory",
-        "git": "https://github.com/solenopsys/mf-inventory",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-electronic",
-        "directory": "mf-electronic",
-        "git": "https://github.com/solenopsys/mf-electronic",
-        "use": "git",
-        "load": true
-      },
-      {
-        "npm": "@solenopsys/mf-time",
-        "directory": "mf-time",
-        "git": "https://github.com/solenopsys/mf-time",
-        "use": "git",
-        "load": true
+        "package": "@solenopsys/fr-uimatrix",
+        "directory": "solenopsys/fr-uimatrix",
+        "repository": "https://github.com/solenopsys/fr-uimatrix",
+        "scopes": []
       }
     ]
   }
