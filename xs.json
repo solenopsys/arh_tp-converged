@@ -24,7 +24,7 @@
         "name": "fl-content",
         "package": "@solenopsys/fl-content",
         "directory": "solenopsys/interfaces/fl-content",
-        "repository": "https://github.com/solenopsys/fl-content.git",
+        "repository": "https://github.com/solenopsys/fl-content",
         "scopes": []
       },
       {
@@ -38,7 +38,7 @@
         "name": "fl-authorization",
         "package": "@solenopsys/fl-authorization",
         "directory": "solenopsys/core/fl-authorization",
-        "repository": "https://github.com/solenopsys/fl-authorization.git",
+        "repository": "https://github.com/solenopsys/fl-authorization",
         "scopes": []
       },
       {
