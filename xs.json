@@ -366,7 +366,7 @@
         "scopes": []
       }
     ],
-    "fronts": [
+    "entrances": [
       {
         "package": "@solenopsys/fr-website",
         "directory": "solenopsys/fr-website",

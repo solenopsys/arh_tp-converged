@@ -1,4 +1,3 @@
 packages:
-  - 'libraries/**'
-  - 'modules/**'
-  - 'fronts/**'
+  - 'packages/**'
+  - 'entrances/**'
