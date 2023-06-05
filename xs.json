@@ -369,27 +369,38 @@
     ],
     "entrances": [
       {
-        "package": "@solenopsys/fr-website",
+        "name": "fr-datasheets",
+        "npm": "@solenopsys/fr-datasheets",
+        "directory": "solenopsys/fr-datasheets",
+        "git": "https://github.com/solenopsys/fr-datasheets",
+        "scopes": []
+      },
+      {
+        "name": "fr-website",
+        "npm": "@solenopsys/fr-website",
         "directory": "solenopsys/fr-website",
-        "repository": "https://github.com/solenopsys/fr-website",
+        "git": "https://github.com/solenopsys/fr-website",
         "scopes": []
       },
       {
-        "package": "@solenopsys/fr-auth",
+        "name": "fr-auth",
+        "npm": "@solenopsys/fr-auth",
         "directory": "solenopsys/fr-auth",
-        "repository": "https://github.com/solenopsys/fr-auth",
+        "git": "https://github.com/solenopsys/fr-auth",
         "scopes": []
       },
       {
-        "package": "@solenopsys/fr-converged",
+        "name": "fr-converged",
+        "npm": "@solenopsys/fr-converged",
         "directory": "solenopsys/fr-converged",
-        "repository": "https://github.com/solenopsys/fr-converged",
+        "git": "https://github.com/solenopsys/fr-converged",
         "scopes": []
       },
       {
-        "package": "@solenopsys/fr-uimatrix",
+        "name": "fr-uimatrix",
+        "npm": "@solenopsys/fr-uimatrix",
         "directory": "solenopsys/fr-uimatrix",
-        "repository": "https://github.com/solenopsys/fr-uimatrix",
+        "git": "https://github.com/solenopsys/fr-uimatrix",
         "scopes": []
       }
     ]
