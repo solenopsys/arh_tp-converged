@@ -84,6 +84,13 @@
         "scopes": []
       },
       {
+        "name": "ui-editor-code",
+        "package": "@solenopsys/ui-editor-code",
+        "directory": "solenopsys/modules/ui-editor-code",
+        "repository": "https://github.com/solenopsys/ui-editor-code",
+        "scopes": []
+      },
+      {
         "name": "ui-forms",
         "package": "@solenopsys/ui-forms",
         "directory": "solenopsys/uimatrix/ui-forms",
@@ -195,13 +202,7 @@
         "repository": "https://github.com/solenopsys/mf-git",
         "scopes": []
       },
-      {
-        "name": "ui-code",
-        "package": "@solenopsys/ui-code",
-        "directory": "solenopsys/modules/mf-code",
-        "repository": "https://github.com/solenopsys/mf-code",
-        "scopes": []
-      },
+
       {
         "name": "mf-logs",
         "package": "@solenopsys/mf-logs",
@@ -303,10 +304,10 @@
         "scopes": []
       },
       {
-        "name": "mf-electronic",
-        "package": "@solenopsys/mf-electronic",
-        "directory": "solenopsys/modules/mf-electronic",
-        "repository": "https://github.com/solenopsys/mf-electronic",
+        "name": "ui-editor-electronic",
+        "package": "@solenopsys/ui-editor-electronic",
+        "directory": "solenopsys/modules/ui-editor-electronic",
+        "repository": "https://github.com/solenopsys/ui-editor-electronic",
         "scopes": []
       },
       {
@@ -352,10 +353,10 @@
         "scopes": []
       },
       {
-        "name": "mf-content",
-        "package": "@solenopsys/mf-content",
-        "directory": "solenopsys/modules/mf-content",
-        "repository": "https://github.com/solenopsys/mf-content",
+        "name": "ui-editor-content",
+        "package": "@solenopsys/ui-editor-content",
+        "directory": "solenopsys/modules/ui-editor-content",
+        "repository": "https://github.com/solenopsys/ui-editor-content",
         "scopes": []
       },
       {
