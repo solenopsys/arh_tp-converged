@@ -1,6 +1,6 @@
 {
   "format": {
-    "name": "treerepo-fronts",
+    "type": "treerepo-frontends",
     "version": "1.1.0"
   },
   "groups": {
