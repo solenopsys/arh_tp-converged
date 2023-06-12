@@ -6,6 +6,7 @@
   "groups": {
     "templates": [
       {
+        "name": "tp-fronts",
         "package": "@solenopsys/tp-fronts",
         "directory": "solenopsys/tp-fronts",
         "repository": "https://github.com/solenopsys/xs-fronts-template",
