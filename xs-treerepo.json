@@ -109,7 +109,7 @@
       {
         "name": "ui-editor-code",
         "package": "@solenopsys/ui-editor-code",
-        "directory": "solenopsys/ui-editor-code",
+        "directory": "solenopsys/uimatrix/ui-editor-code",
         "repository": "https://github.com/solenopsys/ui-editor-code",
         "tags": [
           "full"
@@ -426,7 +426,7 @@
       {
         "name": "ui-editor-electronic",
         "package": "@solenopsys/ui-editor-electronic",
-        "directory": "solenopsys/ui-editor-electronic",
+        "directory": "solenopsys/uimatrix/ui-editor-electronic",
         "repository": "https://github.com/solenopsys/ui-editor-electronic",
         "tags": [
           "full"
