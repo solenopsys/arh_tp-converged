@@ -15,6 +15,16 @@
         ]
       }
     ],
+    "tools": [
+      {
+        "name": "vite-micro-federation",
+        "package": "@solenopsys/vite-micro-federation",
+        "directory": "solenopsys/vite-micro-federation",
+        "repository": "https://github.com/solenopsys/vite-micro-federation",
+        "tags": [
+          "full"
+        ]
+      }],
     "packages": [
       {
         "name": "fl-clusters",
@@ -240,45 +250,54 @@
         "tags": [
           "full"
         ]
-      },
-      {
-        "name": "fl-auth",
-        "package": "@solenopsys/fl-auth",
-        "directory": "solenopsys/fronts/fl-auth",
-        "repository": "https://github.com/solenopsys/fl-auth",
-        "tags": [
-          "full"
-        ]
-      },
-      {
-        "name": "fl-converged",
-        "package": "@solenopsys/fl-converged",
-        "directory": "solenopsys/fronts/fl-converged",
-        "repository": "https://github.com/solenopsys/fl-converged",
-        "tags": [
-          "full"
-        ]
-      },
-      {
-        "name": "fl-datasheets",
-        "package": "@solenopsys/fl-datasheets",
-        "directory": "solenopsys/fronts/fl-datasheets",
-        "repository": "https://github.com/solenopsys/fl-datasheets",
-        "tags": [
-          "full"
-        ]
-      },
-      {
-        "name": "fl-website",
-        "package": "@solenopsys/fl-website",
-        "directory": "solenopsys/fronts/fl-website",
-        "repository": "https://github.com/solenopsys/fl-website",
-        "tags": [
-          "full"
-        ]
       }
     ],
     "micro": [
+      {
+        "name": "mf-uimatrix",
+        "package": "@solenopsys/mf-uimatrix",
+        "directory": "solenopsys/mf-uimatrix",
+        "repository": "https://github.com/solenopsys/mf-uimatrix",
+        "tags": [
+          "full"
+        ]
+      },
+      {
+        "name": "mf-auth",
+        "package": "@solenopsys/mf-auth",
+        "directory": "solenopsys/mf-auth",
+        "repository": "https://github.com/solenopsys/mf-auth",
+        "tags": [
+          "full"
+        ]
+      },
+      {
+        "name": "mf-converged",
+        "package": "@solenopsys/mf-converged",
+        "directory": "solenopsys/mf-converged",
+        "repository": "https://github.com/solenopsys/mf-converged",
+        "tags": [
+          "full"
+        ]
+      },
+      {
+        "name": "mf-datasheets",
+        "package": "@solenopsys/mf-datasheets",
+        "directory": "solenopsys/mf-datasheets",
+        "repository": "https://github.com/solenopsys/mf-datasheets",
+        "tags": [
+          "full"
+        ]
+      },
+      {
+        "name": "mf-website",
+        "package": "@solenopsys/mf-website",
+        "directory": "solenopsys/mf-website",
+        "repository": "https://github.com/solenopsys/mf-website",
+        "tags": [
+          "full"
+        ]
+      },
       {
         "name": "mf-ci",
         "package": "@solenopsys/mf-ci",
