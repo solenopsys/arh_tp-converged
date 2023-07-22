@@ -4,27 +4,6 @@
     "version": "1.1.0"
   },
   "groups": {
-    "templates": [
-      {
-        "name": "tp-fronts",
-        "package": "@solenopsys/tp-fronts",
-        "directory": "solenopsys/tp-fronts",
-        "repository": "https://github.com/solenopsys/xs-fronts-template",
-        "tags": [
-          "full"
-        ]
-      }
-    ],
-    "tools": [
-      {
-        "name": "vite-micro-federation",
-        "package": "@solenopsys/vite-micro-federation",
-        "directory": "solenopsys/vite-micro-federation",
-        "repository": "https://github.com/solenopsys/vite-micro-federation",
-        "tags": [
-          "full"
-        ]
-      }],
     "packages": [
       {
         "name": "fl-clusters",
@@ -252,7 +231,7 @@
         ]
       }
     ],
-    "micro": [
+    "modules": [
       {
         "name": "mf-uimatrix",
         "package": "@solenopsys/mf-uimatrix",
@@ -461,7 +440,7 @@
         ]
       }
     ],
-    "fronts": [
+    "endpoints": [
       {
         "name": "fr-datasheets",
         "package": "@solenopsys/fr-datasheets",

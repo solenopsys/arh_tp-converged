@@ -1,2 +1,2 @@
-# Libraries
-all libraries for developing Frontends 
+# Packages
+all packages for developing Frontends 
