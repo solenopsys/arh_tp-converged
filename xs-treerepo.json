@@ -32,15 +32,7 @@
           "full"
         ]
       },
-      {
-        "name": "fl-authorization",
-        "package": "@solenopsys/fl-authorization",
-        "directory": "solenopsys/core/fl-authorization",
-        "repository": "https://github.com/solenopsys/fl-authorization",
-        "tags": [
-          "full"
-        ]
-      },
+
       {
         "name": "fl-dgraph",
         "package": "@solenopsys/fl-dgraph",
@@ -78,10 +70,10 @@
         ]
       },
       {
-        "name": "fl-storage",
-        "package": "@solenopsys/fl-storage",
-        "directory": "solenopsys/core/fl-storage",
-        "repository": "https://github.com/solenopsys/fl-storage",
+        "name": "fl-diagram",
+        "package": "@solenopsys/fl-diagram",
+        "directory": "solenopsys/core/fl-diagram",
+        "repository": "https://github.com/solenopsys/fl-diagram",
         "tags": [
           "full"
         ]
@@ -233,6 +225,15 @@
     ],
     "modules": [
       {
+        "name": "mf-generator",
+        "package": "@solenopsys/mf-generator",
+        "directory": "solenopsys/core/mf-generator",
+        "repository": "https://github.com/solenopsys/mf-generator",
+        "tags": [
+          "full"
+        ]
+      },
+      {
         "name": "mf-uimatrix",
         "package": "@solenopsys/mf-uimatrix",
         "directory": "solenopsys/mf-uimatrix",
@@ -278,10 +279,10 @@
         ]
       },
       {
-        "name": "mf-ci",
-        "package": "@solenopsys/mf-ci",
-        "directory": "solenopsys/mf-ci",
-        "repository": "https://github.com/solenopsys/mf-ci",
+        "name": "mf-layout",
+        "package": "@solenopsys/mf-layout",
+        "directory": "solenopsys/mf-layout",
+        "repository": "https://github.com/solenopsys/mf-layout",
         "tags": [
           "full"
         ]
@@ -296,10 +297,10 @@
         ]
       },
       {
-        "name": "mf-logs",
-        "package": "@solenopsys/mf-logs",
-        "directory": "solenopsys/mf-logs",
-        "repository": "https://github.com/solenopsys/mf-logs",
+        "name": "mf-microfonds",
+        "package": "@solenopsys/mf-microfonds",
+        "directory": "solenopsys/mf-microfonds",
+        "repository": "https://github.com/solenopsys/mf-microfonds",
         "tags": [
           "full"
         ]
@@ -359,19 +360,19 @@
         ]
       },
       {
-        "name": "mf-equipment",
-        "package": "@solenopsys/mf-equipment",
-        "directory": "solenopsys/mf-equipment",
-        "repository": "https://github.com/solenopsys/mf-equipment",
+        "name": "mf-stages",
+        "package": "@solenopsys/mf-stages",
+        "directory": "solenopsys/mf-stages",
+        "repository": "https://github.com/solenopsys/mf-stages",
         "tags": [
           "full"
         ]
       },
       {
-        "name": "mf-shockwaves",
-        "package": "@solenopsys/mf-shockwaves",
-        "directory": "solenopsys/mf-shockwaves",
-        "repository": "https://github.com/solenopsys/mf-shockwaves",
+        "name": "mf-people",
+        "package": "@solenopsys/mf-people",
+        "directory": "solenopsys/mf-people",
+        "repository": "https://github.com/solenopsys/mf-people",
         "tags": [
           "full"
         ]
