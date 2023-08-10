@@ -70,10 +70,10 @@
         ]
       },
       {
-        "name": "fl-diagram",
-        "package": "@solenopsys/fl-diagram",
-        "directory": "solenopsys/core/fl-diagram",
-        "repository": "https://github.com/solenopsys/fl-diagram",
+        "name": "fl-storage",
+        "package": "@solenopsys/fl-storage",
+        "directory": "solenopsys/core/fl-storage",
+        "repository": "https://github.com/solenopsys/fl-storage",
         "tags": [
           "full"
         ]
@@ -227,7 +227,7 @@
       {
         "name": "mf-generator",
         "package": "@solenopsys/mf-generator",
-        "directory": "solenopsys/core/mf-generator",
+        "directory": "solenopsys/mf-generator",
         "repository": "https://github.com/solenopsys/mf-generator",
         "tags": [
           "full"
@@ -351,10 +351,10 @@
         ]
       },
       {
-        "name": "mf-storages",
-        "package": "@solenopsys/mf-storages",
-        "directory": "solenopsys/mf-storages",
-        "repository": "https://github.com/solenopsys/mf-storages",
+        "name": "mf-diagram",
+        "package": "@solenopsys/mf-diagram",
+        "directory": "solenopsys/mf-diagram",
+        "repository": "https://github.com/solenopsys/mf-diagram",
         "tags": [
           "full"
         ]

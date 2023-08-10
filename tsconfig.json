@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.develop.json",
+  "include": [
+    "packages/**/*.ts",
+    "modules/**/*.ts"
+  ]
+}
