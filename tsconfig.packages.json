@@ -31,7 +31,8 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "compilationMode": "partial",
   },
 }
 

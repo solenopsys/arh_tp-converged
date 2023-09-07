@@ -1,5 +1,5 @@
 import {defineConfig, splitVendorChunkPlugin} from "vite";
-import {angular} from "../tools/vite-micro-federation/src/plugin";
+import {angular} from "../tools/vite-micro-federation/src";
 
 
 const currentPath=process.cwd();
@@ -23,7 +23,7 @@ const external =
     ];
 
 const loadTsConfig = () => {
-    const tsconfig = require('./tsconfig.develop.json');
+    const tsconfig = require('./tsconfig.base.json');
     const paths = tsconfig.compilerOptions.paths;
     const aliases = {};
     for (const [key, value] of Object.entries(paths)) {
