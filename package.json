@@ -70,7 +70,8 @@
     "@softarc/native-federation-esbuild": "^1.1.2"
   },
   "scripts": {
-    "bmf": "node node_modules/@solenopsys/lib-compiller/index.js"
+    "bmf": "node node_modules/@solenopsys/lib-compiller/index.js",
+    "serve": "vite --mode"
   },
   "license": "APACHE 2.0",
   "name": "solenopsys-frontends",
