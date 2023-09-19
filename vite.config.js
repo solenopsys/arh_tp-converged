@@ -1,9 +1,13 @@
 import {defineConfig, splitVendorChunkPlugin} from "vite";
-import {angular} from "../tools/vite-micro-federation/src";
 
+import path from "path";
+import * as fs from "fs";
+
+import { TsCompilerPlugin } from "./node_modules/@solenopsys/vite-federation-plugin/index";
 
 const loadTsConfig = () => {
-    const tsconfig = require('./tsconfig.base.json');
+    const tsconfigPath = path.resolve(__dirname, 'tsconfig.base.json');
+    const tsconfig = JSON.parse(fs.readFileSync(tsconfigPath, 'utf8'));
     const paths = tsconfig.compilerOptions.paths;
     const aliases = {};
     for (const [key, value] of Object.entries(paths)) {
@@ -13,7 +17,7 @@ const loadTsConfig = () => {
     return aliases;
 }
 export default defineConfig({
-    plugins: [angular(["@ngxs_store"]), splitVendorChunkPlugin()], //
+    plugins: [TsCompilerPlugin, splitVendorChunkPlugin()],
     resolve: {
         alias: loadTsConfig()
     },
@@ -31,8 +35,4 @@ export default defineConfig({
             },
         },
     },
-
 });
-
-
-
