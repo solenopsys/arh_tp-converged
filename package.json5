@@ -25,6 +25,7 @@
     '@solenopsys/fl-installer': '^0.1.0',
     '@solenopsys/fl-helm': '^0.1.0',
     '@solenopsys/fl-hyperstreams': '^0.1.0',
+    // solenopsys front ui
     '@solenopsys/ui-controls': '^0.1.0',
     '@solenopsys/ui-forms': '^0.1.0',
     '@solenopsys/ui-qr': '^0.1.0',
