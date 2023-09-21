@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "./configurations/typescript/base.json",
   "include": [
     "packages/**/*.ts",
     "modules/**/*.ts"
