@@ -1,8 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "rootDir": "./libraries",
+    "rootDir": "../../../",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": false,
@@ -22,8 +21,7 @@
     "lib": [
       "ES2022",
       "dom"
-    ],
-
+    ]
   },
 
   "angularCompilerOptions": {
@@ -32,8 +30,11 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "sourceMap": true,
-    "compilationMode": "partial",
+    "compilationMode": "partial"
   },
+  "include": [
+    "../../libraries/**/*.ts"
+  ]
 }
 
 
