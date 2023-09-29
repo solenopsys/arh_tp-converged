@@ -24,8 +24,15 @@
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
     "outDir": "./dist/out-tsc",
-    "paths": {},
-    "rootDir": "./",
+    "paths": {
+      "@solenopsys/bs-auth": [
+        "bootstraps/solenopsys/bs-auth/src/index.ts"
+      ],
+      "@solenopsys/mf-auth": [
+        "modules/solenopsys/mf-auth/src/index.ts"
+      ]
+    },
+    "rootDir": "../../../",
     "sourceMap": true,
     "strict": false,
     "target": "ES2022",
