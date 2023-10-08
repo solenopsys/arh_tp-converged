@@ -3,12 +3,12 @@ const {withNativeFederation, shareAll} = require('@angular-architects/native-fed
 
 function load(name) {
 
+
     const externals = [
         "@angular/router",
         "@angular/compiler",
         "@angular/forms",
         "@angular/common",
-        "@angular/common/http",
         "@angular/platform-browser",
         "@angular/platform-browser-dynamic",
         "@angular/core",
@@ -16,6 +16,7 @@ function load(name) {
         "rxjs/operators",
         "canvas-txt"
     ]
+
 
     const externalShared = {};
 
@@ -54,7 +55,9 @@ function load(name) {
             // Add further packages you don't need at runtime
         ]
     });
-    return {federationConfig, externals, name}
+
+    const externalKeys = Object.keys(externalShared)
+    return {federationConfig, externals: externalKeys, name}
 }
 
 
