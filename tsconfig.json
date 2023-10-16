@@ -1,7 +1,54 @@
 {
-  "extends": "./configurations/typescript/base.json",
   "include": [
     "libraries/**/*.ts",
     "modules/**/*.ts"
-  ]
+  ],
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "outDir": "./dist/out-tsc",
+    "paths": {
+      "@solenopsys/bs-auth": [
+        "bootstraps/solenopsys/bs-auth/src/index.ts"
+      ],
+      "@solenopsys/bs-website": [
+        "bootstraps/solenopsys/bs-website/src/index.ts"
+      ],
+      "@solenopsys/mf-auth": [
+        "modules/solenopsys/mf-auth/src/index.ts"
+      ],
+      "@solenopsys/mf-layout": [
+        "modules/solenopsys/mf-layout/src/index.ts"
+      ],
+      "@solenopsys/mf-website": [
+        "modules/solenopsys/mf-website/src/index.ts"
+      ]
+    },
+    "rootDir": "../../../",
+    "sourceMap": true,
+    "strict": false,
+    "target": "ES2022",
+    "useDefineForClassFields": false
+  }
 }
