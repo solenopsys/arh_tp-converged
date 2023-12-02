@@ -1,5 +1,5 @@
-# Solenopsys front monorepo
+# Converged framework monorepo
 
-Repository for develop UI interface any project of Solenopsys 
+Repository for develop UI interface based on Converged Framework any project of Solenopsys 
 
 Use xs command for manipulate projects inside 
